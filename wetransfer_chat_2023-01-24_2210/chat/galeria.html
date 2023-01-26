@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway:wght@400;700;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/stilos.css" />
+    <title>ecommerce-pagina</title>
+  </head>
+  <body>
+    <header class="py-5">
+      <h1 class="text-center">
+        quincho
+        <span class="text-danger">pili</span>
+      </h1>
+    </header>
+
+    <div class="border-top py-4">
+      <div class="navbar navbar-expand-lg container navbar-light">
+        <a class="navbar-brand d-lg-none fs-2 fw-bold text-uppercase" href="/index.html"> quincho <span class="text-danger">pili</span> </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navegacion">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="navegacion" class="collapse navbar-collapse">
+          <nav class="navbar-nav container d-flex flex-md-row justify-content-md-between text-center" class="navbar-nav conteiner d-flex flex-md-row justify-content-md-between text-center">
+            <a class="text-dark text-decoration-none" href="index.html">inicio</a>
+            <a class="text-dark text-decoration-none" href="nosotros.html">nosotros</a>
+            <a class="text-dark text-decoration-none" href="galeria.html">galeria</a>
+            <a class="text-dark text-decoration-none" href="contacto.html">contacto</a>
+          </nav>
+        </div>
+      </div>
+    </div>
+
+    <main class="container-xl py-5">
+      <h2 class="text-center my-5">galeria</h2>
+
+      <ul class="row list-unstyled galeria">
+        <li class="col-md-6 col-lg-4">
+          <a data-bs-toggle="modal" data-bs-target="#modal-imagen" data-bs-imagen="imagen1">
+            <img class="img-fluid" src="/img/imagen1.jpg" alt="comedor-1" />
+          </a>
+        </li>
+        <li class="col-md-6 col-lg-4">
+          <a data-bs-toggle="modal" data-bs-target="#modal-imagen" data-bs-imagen="comedor2">
+            <img class="img-fluid" src="/img/comedor2.jpg" alt="comedor2" />
+          </a>
+        </li>
+        <li class="col-md-6 col-lg-4">
+          <a data-bs-toggle="modal" data-bs-target="#modal-imagen" data-bs-imagen="comedor4">
+            <img class="img-fluid" src="/img/comedor4.jpg" alt="comedor-4" />
+          </a>
+        </li>
+        <li class="col-md-6 col-lg-4">
+          <a data-bs-toggle="modal" data-bs-target="#modal-imagen" data-bs-imagen="patio1">
+            <img class="img-fluid" src="/img/patio1.jpg" alt="patio1" />
+          </a>
+        </li>
+        <li class="col-md-6 col-lg-4">
+          <a data-bs-toggle="modal" data-bs-target="#modal-imagen" data-bs-imagen="baño2">
+            <img class="img-fluid" src="/img/baño2.jpg" alt="baño2" />
+          </a>
+        </li>
+        <li class="col-md-6 col-lg-4">
+          <a data-bs-toggle="modal" data-bs-target="#modal-imagen" data-bs-imagen="baño3">
+            <img class="img-fluid" src="/img/baño3.jpg" alt="baño3" />
+          </a>
+        </li>
+        <li class="col-md-6 col-lg-4">
+          <a data-bs-toggle="modal" data-bs-target="#modal-imagen" data-bs-imagen="img3">
+            <img class="img-fluid" src="/img/img3.jpg" alt="img3" />
+          </a>
+        </li>
+        <li class="col-md-6 col-lg-4">
+          <a data-bs-toggle="modal" data-bs-target="#modal-imagen" data-bs-imagen="patio2">
+            <img class="img-fluid" src="/img/patio2.jpg" alt="patio2" />
+          </a>
+        </li>
+        <li class="col-md-6 col-lg-4">
+          <a data-bs-toggle="modal" data-bs-target="#modal-imagen" data-bs-imagen="patio4">
+            <img class="img-fluid" src="/img/patio4.jpg" alt="patio4" />
+          </a>
+        </li>
+      </ul>
+    </main>
+    <div class="modal fade" id="modal-imagen">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-body"></div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="pt-5 mt-5 border-top">
+      <div class="conteiner-xl mt-5">
+        <div class="row">
+          <div class="col-md-4 mb-4 mb-md-0 text-center">
+            <h3 class="mb-4">categorias</h3>
+            <nav class="d-flex flex-column">
+              <a class="text-dark text-decoration-none" href="#">patio</a>
+              <a class="text-dark text-decoration-none" href="#">comedor</a>
+              <a class="text-dark text-decoration-none" href="#">baño</a>
+            </nav>
+          </div>
+
+          <div class="col-md-4 mb-4 mb-md-0 text-center">
+            <h3 class="mb-4">sobre nosotros</h3>
+            <nav class="d-flex flex-column">
+              <a class="text-dark text-decoration-none" href="#">quienes somos</a>
+              <a class="text-dark text-decoration-none" href="#">ubicacion</a>
+            </nav>
+          </div>
+
+          <div class="col-md-4 mb-4 mb-md-0 text-center">
+            <h3 class="mb-4">soportes</h3>
+            <nav class="d-flex flex-column">
+              <a class="text-dark text-decoration-none" href="#">preguntas frecuentes</a>
+              <a class="text-dark text-decoration-none" href="#">confianza y seguridad</a>
+              <a class="text-dark text-decoration-none" href="#">pagos</a>
+            </nav>
+          </div>
+        </div>
+        <p class="mt-5 text-center fs-2">todos los derechos reservador.Quincho pili.</p>
+      </div>
+    </footer>
+
+    <script src="/bootstrap-5.3.0-alpha1-dist/js/bootstrap.min.js"></script>
+    <script src="/bootstrap-5.3.0-alpha1-dist/js/app.js"></script>
+  </body>
+</html>
